@@ -1,0 +1,127 @@
+{
+    "website": "https://practicesoftwaretesting.com/",
+    "page_title": "Practice Software Testing - Toolshop - v5.0",
+    "total_test_cases": 10,
+    "test_cases": [
+        {
+            "id": "TC001",
+            "name": "Verify homepage loads",
+            "feature": "Homepage",
+            "priority": "High",
+            "steps": [
+                "Open the website"
+            ],
+            "expected_result": "Homepage should load successfully",
+            "status": "NOT_EXECUTED"
+        },
+        {
+            "id": "TC002",
+            "name": "Search for an existing product",
+            "feature": "Search",
+            "priority": "High",
+            "steps": [
+                "Locate the search input",
+                "Enter a known product name",
+                "Submit the search"
+            ],
+            "expected_result": "Matching products should be displayed",
+            "status": "NOT_EXECUTED"
+        },
+        {
+            "id": "TC003",
+            "name": "Search for a nonexistent product",
+            "feature": "Search",
+            "priority": "Medium",
+            "steps": [
+                "Enter a nonexistent product name",
+                "Submit the search"
+            ],
+            "expected_result": "No matching products should be displayed",
+            "status": "NOT_EXECUTED"
+        },
+        {
+            "id": "TC004",
+            "name": "Sort products by lowest price",
+            "feature": "Sorting",
+            "priority": "High",
+            "steps": [
+                "Select Price (Low - High)",
+                "Inspect displayed product prices"
+            ],
+            "expected_result": "Products should be ordered by ascending price",
+            "status": "NOT_EXECUTED"
+        },
+        {
+            "id": "TC005",
+            "name": "Sort products alphabetically",
+            "feature": "Sorting",
+            "priority": "Medium",
+            "steps": [
+                "Select Name (A - Z)",
+                "Inspect product names"
+            ],
+            "expected_result": "Products should be ordered alphabetically",
+            "status": "NOT_EXECUTED"
+        },
+        {
+            "id": "TC006",
+            "name": "Filter products by Hand Tools",
+            "feature": "Category",
+            "priority": "High",
+            "steps": [
+                "Select Hand Tools category",
+                "Inspect displayed products"
+            ],
+            "expected_result": "Only matching category products should appear",
+            "status": "NOT_EXECUTED"
+        },
+        {
+            "id": "TC007",
+            "name": "Filter products by brand",
+            "feature": "Brand",
+            "priority": "Medium",
+            "steps": [
+                "Select ForgeFlex Tools",
+                "Inspect displayed products"
+            ],
+            "expected_result": "Products from the selected brand should appear",
+            "status": "NOT_EXECUTED"
+        },
+        {
+            "id": "TC008",
+            "name": "Filter eco-friendly products",
+            "feature": "Sustainability",
+            "priority": "Medium",
+            "steps": [
+                "Enable eco-friendly products filter",
+                "Inspect displayed products"
+            ],
+            "expected_result": "Only eligible eco-friendly products should appear",
+            "status": "NOT_EXECUTED"
+        },
+        {
+            "id": "TC009",
+            "name": "Verify login page navigation",
+            "feature": "Authentication",
+            "priority": "High",
+            "steps": [
+                "Click Sign in",
+                "Verify login page"
+            ],
+            "expected_result": "Login page should be displayed",
+            "status": "NOT_EXECUTED"
+        },
+        {
+            "id": "TC010",
+            "name": "Verify contact page navigation",
+            "feature": "Contact",
+            "priority": "Medium",
+            "steps": [
+                "Click Contact",
+                "Verify contact page"
+            ],
+            "expected_result": "Contact page should be displayed",
+            "status": "NOT_EXECUTED"
+        }
+    ]
+}
