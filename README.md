@@ -1,4 +1,4 @@
-# AI QA Automation Agent
+# AI Practice Software Testing
 
 An AI-assisted web application testing project built with **Python and Selenium WebDriver**. The project automates browser-based test execution, discovers web page elements, validates application functionality, and generates execution reports.
 
